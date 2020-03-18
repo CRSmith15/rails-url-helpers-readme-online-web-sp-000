@@ -31,3 +31,7 @@ Completed 200 OK in 354ms (Views: 349.0ms | ActiveRecord: 0.7ms)
   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
   [1m[35mSQL (1.7ms)[0m  [1m[32mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "A lovely title"], ["description", "A superb description"], ["created_at", "2020-03-18 21:18:56.298165"], ["updated_at", "2020-03-18 21:18:56.298165"]]
   [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "A lovely title"], ["description", "A superb description"], ["created_at", "2020-03-18 21:19:13.559750"], ["updated_at", "2020-03-18 21:19:13.559750"]]
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
